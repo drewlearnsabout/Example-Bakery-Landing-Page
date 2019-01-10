@@ -19,14 +19,14 @@ header h1 {
     font-weight: lighter;
     color: white;
     animation-name: fade1;
-    animation-duration: 3s;
+    animation-duration: 2s;
 }
 
 header p {
     font-size: 1em;
     color: white;
     animation-name: fade2;
-    animation-duration: 4s;
+    animation-duration: 2s;
 }
 
 #socialMedia {
@@ -34,7 +34,7 @@ header p {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1em 1em;
     animation-name: fade3;
-    animation-duration: 4s;
+    animation-duration: 2s;
 }
 
 #socialMedia img {
@@ -139,7 +139,7 @@ footer p {
     0% {
         opacity: 0;
     }
-    50% {
+    60% {
         opacity: 0;
         transform: translate(-100px);
     }
